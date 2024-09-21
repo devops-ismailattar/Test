@@ -8,3 +8,11 @@ pipeline{
         }
     }
 }
+        stage("print2"){
+            steps{
+                sh "echo hello world"
+            }
+        }
+    }
+}
+
